@@ -1,6 +1,6 @@
 const IconButton = ({text}) => {
   return(
-    <button onClick={()=> alert('soon')}class="bg-blue-500 hover:bg-blue-400 text-white py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+    <button onClick={()=> alert('soon')} className="bg-blue-500 hover:bg-blue-400 text-white py-1 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
       {text}
   </button>
   )
