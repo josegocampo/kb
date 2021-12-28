@@ -29,7 +29,7 @@ const ElementPill = ({element}) => {
   console.log(element, textColor, bgColor)
   
   return (
-    <span className={`inline-block border border-blue rounded px-3 bg-${bgColor} text-${textColor}`}>{element}</span>
+    <span className={`inline-block border border-blue rounded py-0.25 px-3 bg-${bgColor} text-${textColor} text-xs text-center`}>{element}</span>
   )
 
 }
